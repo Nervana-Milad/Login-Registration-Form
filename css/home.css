@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: auto;
+}
+
+body {
+  background-color: black;
+}
+
+.box {
+  width: 400px;
+  height: 300px;
+  background-color: #155d73;
+}

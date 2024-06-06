@@ -1,0 +1,97 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  /* background-color: #155d733a; */
+}
+.my-form {
+  border: 2px solid #155d73;
+  border-radius: 12px;
+  width: 50%;
+  background-color: #000000;
+  box-shadow: 0px 3px 20px 0px;
+}
+
+.signBtn {
+  border: 3px solid #2d9a9c;
+}
+
+.btn-success {
+  --bs-btn-bg: #155d7300;
+  --bs-btn-border-color: #155d7300;
+  --bs-btn-hover-bg: #2d9a9c;
+  --bs-btn-hover-border-color: #2d9a9c;
+  --bs-btn-active-bg: #2d9a9c;
+  --bs-btn-active-border-color: #2d9a9c;
+  --bs-btn-disabled-bg: #155d73;
+  --bs-btn-disabled-border-color: #155d73;
+}
+
+.input-group:not(.has-validation) > .dropdown-toggle:nth-last-child(n + 3),
+.input-group:not(.has-validation)
+  > .form-floating:not(:last-child)
+  > .form-control,
+.input-group:not(.has-validation)
+  > .form-floating:not(:last-child)
+  > .form-select,
+.input-group:not(.has-validation)
+  > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(
+    .form-floating
+  ) {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.input-box input {
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  font-size: 14px;
+  color: white;
+}
+
+.input-box input::placeholder {
+  color: white;
+  background-color: transparent;
+}
+
+.input-box input:focus {
+  background-color: transparent;
+  border-color: transparent;
+  color: white;
+}
+
+.input-box i {
+  position: absolute;
+  right: 30px;
+  font-size: 14px;
+}
+
+.no-account a {
+  text-decoration: none;
+  color: #2d9a9c;
+}
+
+.no-account a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .my-form {
+    width: 90%;
+  }
+}
+
+/* 
+.input-box input:active {
+  background-color: transparent;
+} */
