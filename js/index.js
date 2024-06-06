@@ -31,7 +31,7 @@ function signInUser() {
         clearForm();
         document
           .getElementById("directionLink")
-          .setAttribute("href", "./home.html");
+          .setAttribute("href", "home.html");
         localStorage.setItem("userNameInput", userRecord.name);
       } else {
         console.log("Invalid input");
