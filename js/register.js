@@ -34,8 +34,8 @@ function signUpUser() {
       setTimeout(function () {
         document
           .getElementById("directionLink")
-          .setAttribute("href", "/index.html");
-        window.location.assign("/index.html");
+          .setAttribute("href", "./index.html");
+        window.location.assign("./index.html");
       }, 2000);
 
       console.log("User added successfully");
