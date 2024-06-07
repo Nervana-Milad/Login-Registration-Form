@@ -32,10 +32,10 @@ function signUpUser() {
       clearForm();
       registerdSuccessfully.classList.replace("d-none", "d-block");
       setTimeout(function () {
-        document
-          .getElementById("directionLink")
-          .setAttribute("href", "index.html");
-        window.location.assign("index.html");
+        // document
+        //   .getElementById("directionLink")
+        //   .setAttribute("href", "/index.html");
+        window.location.assign("./index.html");
       }, 2000);
 
       console.log("User added successfully");
