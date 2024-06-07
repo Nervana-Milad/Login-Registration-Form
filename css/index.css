@@ -24,6 +24,10 @@
   border: 3px solid #155d73;
 }
 
+.text-blue {
+  color: #155d73;
+}
+
 .btn-success {
   --bs-btn-bg: #155d7300;
   --bs-btn-border-color: #155d7300;

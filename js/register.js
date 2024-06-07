@@ -32,9 +32,6 @@ function signUpUser() {
       clearForm();
       registerdSuccessfully.classList.replace("d-none", "d-block");
       setTimeout(function () {
-        // document
-        //   .getElementById("directionLink")
-        //   .setAttribute("href", "/index.html");
         window.location.assign("./index.html");
       }, 2000);
 
@@ -54,7 +51,7 @@ function isEmailExists(email) {
 function validateFormInputs(ele) {
   var regex = {
     userName: /^[a-zA-Z0-9]+$/,
-    userEmail: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
+    userEmail: /^.{3,}@(gmail|yahoo).com$/,
     userPass:
       /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()\-_=+[{\]};:'",/?]).{8,}$/,
   };

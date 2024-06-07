@@ -48,7 +48,7 @@ function getUserByEmail(email) {
 
 function validateFormInputs(ele) {
   var regex = {
-    userEmail: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
+    userEmail: /^.{3,}@(gmail|yahoo).com$/,
     userPass:
       /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()\-_=+[{\]};:'",/?]).{8,}$/,
   };
